@@ -315,7 +315,7 @@ background-color: #F8F9FA;
 }
 @media (max-width: 850px){
   .portfolio h2{
-    font-size: 30px;
+    font-size: 0px;
   }
   #testemonial h2{
     font-size: 40px;
@@ -383,22 +383,25 @@ background-color: #F8F9FA;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 34%;
+  width: 50%;
   text-decoration: none;
   background-color: #20c997;
   color: #fff;
   margin: 10px auto;
   padding: 15px 50px;
   border: 1px solid #20c997;
-  border-radius: 40px;
+  border-radius: 50px;
   font-weight: bold;
-  box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.267);
-  transition: all .5s;
 }
 .contact-section .second-contact-info a:hover {
   background-color: #0da577;
   box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.521);
   border: 1px solid #0da577;
+}
+@media (max-width: 850px){
+  .contact-section .second-contact-info a {
+    width: 100%;
+  }
 }
 /* end the contact page */
 /* Start Footer */
