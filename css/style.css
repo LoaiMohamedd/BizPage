@@ -246,26 +246,10 @@ background-color: #F8F9FA;
   #works{
     padding: 2%;
   }
+ 
   .portfolio .filter span {
     cursor: pointer;
     z-index: 2;
-  }
-  .portfolio .filter .active::before {
-    width: 95%;
-  }
-  .portfolio .filter span:hover::before {
-    width: 95%;
-  }
-  .portfolio .filter span::before {
-    content: "";
-    width: 0;
-    height: 2px;
-    background: black;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: all 0.4s;
-    z-index: -1;
   }
   .portfolio .item-img:hover .item-img-overlay {
     opacity: 1;
@@ -328,6 +312,26 @@ background-color: #F8F9FA;
   height: 12px;
   border-radius:50%;
   
+}
+@media (max-width: 850px){
+  .portfolio h2{
+    font-size: 30px;
+  }
+  #testemonial h2{
+    font-size: 40px;
+  }
+  .team-area h2{
+    font-size: 40px;
+  }
+  .Services h2{
+    font-size: 40px;
+  }
+  #about h1{
+    font-size: 40px;
+  }
+  .facts h1{
+    font-size: 40px;
+  }
 }
 /* start the contact page */
 .contact-content {
